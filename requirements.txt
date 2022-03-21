@@ -7,3 +7,4 @@ gunicorn
 torch==1.8.1+cpu 
 torchvision==0.9.1+cpu
 markupsafe==2.0.1
+itsdangerous==2.0.1
