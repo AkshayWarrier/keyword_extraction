@@ -1,5 +1,5 @@
 Flask==1.1.2
-keybert
 gunicorn==20.1.0
 Jinja2==2.11.3
-torch==1.11.0
+scikit-learn
+sentence-tranformers
