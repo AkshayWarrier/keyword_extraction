@@ -2,3 +2,6 @@ Flask==1.1.2
 Jinja2==2.11.3
 scikit-learn
 sentence-transformers
+gunicorn
+torch==1.8.1+cpu 
+torchvision==0.9.1+cpu
