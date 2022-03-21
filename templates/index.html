@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="/static/styles.css?v=1.0.5">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+{% endblock %}
+
+{% block title %}
+ Generate Keywords
+{% endblock %}
+
+{% block content %}
+<div class = "bodycontainer">
+    <h1>Enter a paragraph</h1>
+    <div class="container">
+        <form action="#" method="post">
+            <textarea type="text" name="text"></textarea>
+            <input classname="button" type="submit" value="Generate">
+        </form>
+    </div>
+    <p>{{ keywords }}</p>
+</div>
+{% endblock %}
