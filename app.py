@@ -8,7 +8,7 @@ app = Flask(__name__)
 kw_model = KeyBERT()
 
 def get_keywords(text):
-    return kw_model.extract_keywords(text)
+    return kw_model.extract_keywords(text,keyphrase_ngram_range=(3, 3), stop_words='english', use_maxsum=True, nr_candidates=20, top_n=8)
 
 @app.route('/', methods=["POST","GET"])
 def home():
